@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
-                    <select class="${properties.kcInputClass!}"  id="user.attributes.gender" name="user.attributes.gender" value="${(register.formData['user.attributes.gender']!'')}">
+                    <select class="${properties.kcInputClass!}"  id="user.attributes.gender" name="user.attributes.gender" value="${(register.formData['user.attributes.gender'])!''}">
                         <option>Female</option>
                         <option>Male</option>
                         <option>Other</option>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
-                    <input type="text" class="${properties.kcInputClass!}"  id="user.attributes.locality" name="user.attributes.locality" value="${(register.formData['user.attributes.locality']!'')}"/>
+                    <input type="text" class="${properties.kcInputClass!}"  id="user.attributes.locality" name="user.attributes.locality" value="${(register.formData['user.attributes.locality'])!''}"/>
                 </div>
             </div>
 
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
-                    <select class="${properties.kcInputClass!}"  id="user.attributes.country" name="user.attributes.country" value="${(register.formData['user.attributes.country']!'')}"/>
+                    <select class="${properties.kcInputClass!}"  id="user.attributes.country" name="user.attributes.country" value="${(register.formData['user.attributes.country'])!''}"/>
                         <#include "countries.ftl">
                     </select>
                 </div>
@@ -106,7 +106,7 @@
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
-                    <input type="date" class="${properties.kcInputClass!}"  id="user.attributes.dob" name="user.attributes.dob" value="${(register.formData['user.attributes.dob']!'')}"/>
+                    <input type="date" class="${properties.kcInputClass!}"  id="user.attributes.dob" name="user.attributes.dob" value="${(register.formData['user.attributes.dob'])!''}"/>
                 </div>
             </div>
 
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
-                    <input type="text" class="${properties.kcInputClass!}"  id="user.attributes.organization" name="user.attributes.organization" value="${(register.formData['user.attributes.organization']!'')}"/>
+                    <input type="text" class="${properties.kcInputClass!}"  id="user.attributes.organization" name="user.attributes.organization" value="${(register.formData['user.attributes.organization'])!''}"/>
                 </div>
             </div>
 
