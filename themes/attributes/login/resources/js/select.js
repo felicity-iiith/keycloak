@@ -6,4 +6,6 @@ window.addEventListener('load', function () {
     var select = selects[i]
     select.value = select.getAttribute('value')
   }
+  // XXX: Hack to prevent users from mistakenly having @ in their username from google
+  document.getElementById('username').value = document.getElementById('username').value.split('@')[0]
 })
