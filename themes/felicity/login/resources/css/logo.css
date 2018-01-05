@@ -18,7 +18,7 @@
 #kc-logo-wrapper {
     background: url("../img/logo.png") no-repeat top right;
     background-size: contain;
-    height: 50px;
+    height: 15%;
     width: 100%;
 }
 
@@ -30,4 +30,10 @@
 
 .login-pf .container {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+#kc-content {
+	position: relative;
+	width: 90%;
+	margin-left: 5%;
 }
