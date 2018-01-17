@@ -7,5 +7,8 @@ window.addEventListener('load', function () {
     select.value = select.getAttribute('value')
   }
   // XXX: Hack to prevent users from mistakenly having @ in their username from google
-  document.getElementById('username').value = document.getElementById('username').value.split('@')[0]
+  var suffix = "first-broker-login";
+  if (window.location.pathname.substr(-suffix.length) == suffix) {
+    document.getElementById('username').value = document.getElementById('username').value.split('@')[0]
+  }
 })
