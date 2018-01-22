@@ -31,3 +31,20 @@
 .login-pf .container {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Custom Hackxxx */
+
+/* Coz register page is much bigger (in height) than the default one */
+@media (max-height: 768px) {
+    #kc-container-wrapper {
+        padding-top: 50px;
+        top: 20%;
+    }
+}
+
+/* Causes some scrolling issue, dont know why original rule is there in first place */
+#kc-info {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
